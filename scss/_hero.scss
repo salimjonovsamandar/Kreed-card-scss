@@ -1,0 +1,49 @@
+.hero {
+  margin-top: 98px;
+
+  .hero__text {
+    width: 500px;
+
+    h3 {
+      color: #232d22;
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+    }
+
+    p {
+      color: rgba(35, 45, 34, 0.7);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    button {
+      border: none;
+      margin-top: 50px;
+      margin-bottom: 140px;
+
+      color: #fff;
+      text-align: center;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+
+      border-radius: 4px;
+      background: #232d22;
+
+      width: 200px;
+      height: 60px;
+      flex-shrink: 0;
+      transition: $transition;
+
+      &:hover{
+        background-color: transparent;
+        border: 1px solid #232d22;
+        color: #232d22;
+      }
+    }
+  }
+}
